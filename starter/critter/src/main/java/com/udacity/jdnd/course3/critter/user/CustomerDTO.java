@@ -13,10 +13,10 @@ public class CustomerDTO {
     private String notes;
     private List<Long> petIds;
 
+    // Getters and setters
     public long getId() {
         return id;
     }
-
     public void setId(long id) {
         this.id = id;
     }
@@ -24,7 +24,6 @@ public class CustomerDTO {
     public String getName() {
         return name;
     }
-
     public void setName(String name) {
         this.name = name;
     }
@@ -32,7 +31,6 @@ public class CustomerDTO {
     public String getPhoneNumber() {
         return phoneNumber;
     }
-
     public void setPhoneNumber(String phoneNumber) {
         this.phoneNumber = phoneNumber;
     }
@@ -40,7 +38,6 @@ public class CustomerDTO {
     public String getNotes() {
         return notes;
     }
-
     public void setNotes(String notes) {
         this.notes = notes;
     }
@@ -48,7 +45,6 @@ public class CustomerDTO {
     public List<Long> getPetIds() {
         return petIds;
     }
-
     public void setPetIds(List<Long> petIds) {
         this.petIds = petIds;
     }

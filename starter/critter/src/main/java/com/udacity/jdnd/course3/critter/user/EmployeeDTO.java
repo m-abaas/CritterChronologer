@@ -13,10 +13,10 @@ public class EmployeeDTO {
     private Set<EmployeeSkill> skills;
     private Set<DayOfWeek> daysAvailable;
 
+    // Getters and setters
     public long getId() {
         return id;
     }
-
     public void setId(long id) {
         this.id = id;
     }
@@ -24,7 +24,6 @@ public class EmployeeDTO {
     public String getName() {
         return name;
     }
-
     public void setName(String name) {
         this.name = name;
     }
@@ -32,15 +31,11 @@ public class EmployeeDTO {
     public Set<EmployeeSkill> getSkills() {
         return skills;
     }
-
     public void setSkills(Set<EmployeeSkill> skills) {
         this.skills = skills;
     }
 
-    public Set<DayOfWeek> getDaysAvailable() {
-        return daysAvailable;
-    }
-
+    public Set<DayOfWeek> getDaysAvailable() { return daysAvailable; }
     public void setDaysAvailable(Set<DayOfWeek> daysAvailable) {
         this.daysAvailable = daysAvailable;
     }
